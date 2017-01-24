@@ -73,15 +73,12 @@ class Espresso {
 
             switch (switchOperator(operat)) {
                 case 1:
-
                     if (pattern.length() > 1)
                         pattern = pattern.substring(1, pattern.length() - 1);
                     sum += Math.E;
                     break;
                 case 2:
-
                     pattern = cutPattern(pattern, 4);
-
                     sum += Math.sin(Math.PI * calculus(pattern) / 180);
                     break;
                 case 3:
@@ -126,7 +123,6 @@ class Espresso {
                     break;
 
             }
-
             return sum;
         } catch (Exception e) {
             throw new Exception("Check pattern: " + pattern);
