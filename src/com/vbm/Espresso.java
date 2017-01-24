@@ -16,7 +16,7 @@ class Espresso {
     }
 
     // If the number of open and close bracets are equal
-    // Возвращает соответствует ли количество открывающих скобок количеству закрывающих
+    // Возвращает (истина/ложь) соответствует ли количество открывающих скобок количеству закрывающих
     private static boolean ifBracketsEqual(String pattern) {
         return (countSymbol('(', pattern) == countSymbol(')', pattern));
     }
